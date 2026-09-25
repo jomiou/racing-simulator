@@ -1,0 +1,10 @@
+{
+  "name": "racing-simulator",
+  "private": true,
+  "description": "Browser racing simulator: a GT3-style car on Spa-Francorchamps with a detailed vehicle-dynamics model",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" }
+}
